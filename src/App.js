@@ -7,7 +7,6 @@ import Recipe from "./components/Recipe";
 import Alert from "./components/Alert";
 
 
-// const URL = `https://api.edamam.com/search?q=${query}&app_id=${API_ID}&app_key=${APP_KEY}`
 
 const App = () => {
   const [query, setQuery] = useState("");
@@ -36,18 +35,6 @@ const App = () => {
     e.preventDefault();
     getRecipe();
   };
-  // state = {
-  //   recipes: []
-  // }
-  // getRecipe = async (e) => {
-  //   const recipeName = e.target.elements.recipeName.value
-  //   e.preventDefault()
-  //   const api_call = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${API_KEY}&query=${recipeName}&maxFat=25&number=15`)
-    
-  //   const data = await api_call.json()
-  //   this.setState({recipes: data.results})
-  //   console.log(this.state.recipes)
-
 
     return (
       <div className="App">
