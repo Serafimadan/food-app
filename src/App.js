@@ -6,7 +6,8 @@ import { v4 as uuidv4 } from "uuid";
 import Recipe from "./components/Recipe";
 import Alert from "./components/Alert";
 
-
+const API_ID = '9a13b853'
+const APP_KEY = '52572512f688d5dab600058b38e6c6d5'
 
 const App = () => {
   const [query, setQuery] = useState("");
